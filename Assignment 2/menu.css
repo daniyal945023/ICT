@@ -1,0 +1,39 @@
+body {
+            background-color: lightgoldenrodyellow;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: darkred;
+            text-align: center;
+        }
+        .menu-item-list {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    
+        em {
+            font-weight: bold; 
+            color: green; 
+            font-style: normal; 
+        }
+        .food-image {
+            float: right; 
+            margin-left: 20px;
+            border: 2px dashed brown; 
+            width: 400px; 
+            height: auto;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }

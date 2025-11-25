@@ -1,0 +1,42 @@
+body {
+            background-color: lightgoldenrodyellow; 
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: darkred; 
+            text-align: center;
+        }
+        .banner {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .banner img {
+            width: 700px;
+            border: 2px solid black;
+            display: block;
+            margin: 0 auto; 
+            height: auto;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: darkred;
+            font-weight: bold;
+        }
